@@ -4,6 +4,8 @@ import Chart from './Chart'
 import Select from 'react-select'
 import 'react-select/dist/react-select.css'
 
+import DayPicker from './DayPicker'
+
 class App extends Component {
     static propTypes = {
         articles: PropTypes.array.isRequired
@@ -26,6 +28,7 @@ class App extends Component {
                 <Select options = {options} value={this.state.selected} onChange = {this.handleSelectChange} multi/>
                 <ArticleList articles={this.props.articles}/>
                 <Chart articles={this.props.articles}/>
+                <DayPicker />
             </div>
         )
     }
