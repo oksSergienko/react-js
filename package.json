@@ -34,8 +34,10 @@
     "moment": "^2.17.1",
     "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.4.2",
+    "react-bootstrap-validation": "^0.1.11",
     "react-day-picker": "^5.2.0",
     "react-dom": "^15.3.2",
-    "react-select": "^1.0.0-rc.3"
+    "react-select": "^1.0.0-rc.3",
+    "revalidator": "^0.3.1"
   }
 }

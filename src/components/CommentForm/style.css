@@ -1,0 +1,38 @@
+form.container{
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+form.container h5{
+    font-size:16px;
+    text-align:center;
+}
+
+form.container label{
+    margin-right:10px;
+    text-align:left;
+    width: 140px;
+    line-height: 30px;
+    display: inline-block;
+}
+form.container input{
+    height: 30px;
+    line-height:30px;
+}
+form.container input, form.container textarea{
+    vertical-align: middle;
+    width: 175px;
+    float: right;
+}
+
+form.container textarea{
+    height:100px;
+}
+form.container .form-group{
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+form.container  input[type="submit"]{
+    float: right;
+}
