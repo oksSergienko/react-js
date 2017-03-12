@@ -11,6 +11,8 @@ class Article extends Component {
      }
 
      */
+
+    
     render() {
         const {article, isOpen, toggleOpen} = this.props
         const body = isOpen
